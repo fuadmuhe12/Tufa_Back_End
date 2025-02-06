@@ -1,7 +1,7 @@
 module.exports = ({ env }) => ({
   host: env('HOST', '0.0.0.0'),
   port: env.int('PORT', 10000),
-  url: env('URL',"https://plankton-app-9frdi.ondigitalocean.app"),
+  url: env('URL',"https://tufa-back-end.onrender.com"),
   app: {
     keys: env.array('APP_KEYS'),
   },
